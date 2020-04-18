@@ -1,1 +1,21 @@
-/home/gosha/.gitconfig
+[user]
+	name = Kulak Georgiy
+	email = kulakgeorgij@gmail.com
+[push]
+	default = matching
+[core]
+	editor = nvim
+[alias]
+	tree = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date=relative --branches
+    tr = tree
+    st = status
+    sh = stash
+    co = checkout
+    br = branch
+    ad = add
+    cm = commit
+    rb = rebase
+    mg = merge
+    fh = fetch
+    ph = push
+    rt = remote
